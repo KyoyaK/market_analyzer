@@ -1,10 +1,3 @@
-#PLAN
-    #Pull data from yfinance
-    #Analyze things like volatility, rolling averages, correlation matrix
-    #Perhaps ML prediction of like 1 week
-    #Perhaps cluster similar stocks (K-means)
-    #Make a clean plot
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
