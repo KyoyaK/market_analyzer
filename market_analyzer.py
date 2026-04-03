@@ -1,19 +1,3 @@
-"""
-Description: This code implements analyses of 
-financial data pulled from yfinance. There are 
-two types of stock predictions implemented, 
-one predicting returns and the other the closing 
-price of the stock. Both of these models use scikit-learn's
-linear regression model. The trainig data used was a certain
-fraction of the financial data (default set of 0.8), 
-and the testing data was the remaining fraction. 
-The accuracy of the models may be limited due to a number of 
-reasons, such as the simplicity of the model, 
-the 'noisyness' of the stock market, and more. 
-
-Bugs: None known. 
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
